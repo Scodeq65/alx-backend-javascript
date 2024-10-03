@@ -1,1 +1,1 @@
-Readme file for 0x00-ES6_basic task
+Readme file for my specialization 0x00-ES6_basic task
