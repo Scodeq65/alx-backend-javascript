@@ -7,6 +7,6 @@ process.stdin.on('data', (data) => {
   console.log(`Your name is: ${input}`);
 
   // Exit the program gracefully
-  console.log('This important software is closing');
+  console.log('This important software is now closing');
   process.exit();
 });
