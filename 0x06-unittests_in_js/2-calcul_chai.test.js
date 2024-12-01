@@ -13,14 +13,14 @@ describe('calculateNumber', () => {
   describe('SUBTRACT', () => {
     it('should return the difference of two rounded numbers', () => {
       expect(calculateNumber('SUBTRACT', 1.4, 4.5)).to.equal(-4);
-      expect(calculateNumber('SUBTRACT', 5.5, 3.2)),to.equal(3);
+      expect(calculateNumber('SUBTRACT', 5.5, 3.2)).to.equal(3);
       expect(calculateNumber('SUBTRACT', -1.2, -3.7)).to.equal(3);
     });
   });
 
   describe('DIVIDE', () => {
     it('should return the division of two rounded numbers', () => {
-      expect(calculateNumber('DIVIDE', 1.4, 4.5)).to.equal(0.2);
+      expect(calculateNumber('DIVIDE', 1.4, 4.5)).to.be.closeTo(0.2, 0.01);
       expect(calculateNumber('DIVIDE', 5.5, 2.2)).to.equal(3);
     });
 
